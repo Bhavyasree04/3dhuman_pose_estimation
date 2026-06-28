@@ -1,20 +1,91 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 3D Human Pose Estimation and Health Analysis Using Deep Learning
 
-# Run and deploy your AI Studio app
+A web-based application that performs **3D Human Pose Estimation** using deep learning and computer vision. The system captures human movement from a single RGB camera, reconstructs the 3D human skeleton, analyzes posture, and provides basic movement analysis.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+- 3D human pose estimation from a single RGB camera
+- Real-time skeleton visualization
+- Human posture and movement analysis
+- Motion tracking using AI
+- User-friendly web interface
 
-## Run Locally
+## Technologies Used
 
-**Prerequisites:**  Node.js
+- React
+- TypeScript
+- Vite
+- MediaPipe Pose
+- Groq API
+- Hugging Face Inference API
 
+## Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- Node.js (v18 or later)
+- npm
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Bhavyasree04/3dhuman_pose_estimation.git
+cd 3dhuman_pose_estimation
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Configure Environment Variables
+
+Create a `.env` file in the project root and add:
+
+```env
+VITE_GROQ_API_KEY=your_groq_api_key
+VITE_HF_TOKEN=your_huggingface_token
+```
+
+### Run the Project
+
+```bash
+npm run dev
+```
+
+The application will start at:
+
+```
+http://localhost:3000
+```
+
+## Project Structure
+
+```
+├── components/
+├── services/
+├── App.tsx
+├── index.tsx
+├── package.json
+├── vite.config.ts
+└── README.md
+```
+
+## Future Enhancements
+
+- Multi-person pose estimation
+- Exercise and fitness tracking
+- AI-based posture correction
+- Health monitoring dashboard
+- Mobile application support
+
+## Team Members
+
+- Bhavya Sree B
+- Cheguri Khethana
+- Kothapalli Sowmya
+
+## License
+
+This project is developed for educational and academic purposes.
