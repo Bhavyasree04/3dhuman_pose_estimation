@@ -1,0 +1,9 @@
+
+{
+  "name": "KineticAI - 3D Motion Analysis",
+  "description": "Advanced 3D human motion analysis using deep learning for real-time posture correction and well-being tracking.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
